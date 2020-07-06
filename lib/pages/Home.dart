@@ -108,7 +108,7 @@ class _HomePageState extends State<HomePage> {
                         asset: 'assets/intermed.png',
                         progress: 'Em Andamento',
                         level: 'Nível 3',
-                        color: Colors.green[200],
+                        color: Colors.blue[300],
                       ),
                       ItemList(
                         asset: 'assets/super.png',

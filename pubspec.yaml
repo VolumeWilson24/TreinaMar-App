@@ -32,6 +32,10 @@ dependencies:
   qrcode: ^1.0.4
   image_picker: ^0.6.7+3
   panorama: ^0.0.2
+  shared_preferences: ^0.5.7+3
+  connectivity: ^0.4.9
+  cached_network_image: ^2.2.0+1
+  video_player: ^0.10.11+2
 
 dev_dependencies:
   flutter_test:

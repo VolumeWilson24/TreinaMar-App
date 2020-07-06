@@ -10,7 +10,7 @@ class PanoramaView extends StatelessWidget {
       ),
           body: Container(
         child: Panorama(
-          animSpeed: 2.0,
+          animSpeed: 0,
           child: Image.asset('assets/engine_room.jpeg'), 
         )
       ),

@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:treinamar/pages/Home.dart';
 
 class Create extends StatefulWidget {
   @override
@@ -23,6 +24,7 @@ class _CreateState extends State<Create> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        resizeToAvoidBottomInset: false,
         appBar: AppBar(
           title: Text('Criar conteúdo'),
         ),
@@ -78,7 +80,10 @@ class _CreateState extends State<Create> {
                       color: Colors.white,
                     ),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.of(context)
+                        .push(MaterialPageRoute(builder: (_) => HomePage()));
+                  },
                 ),
               )
             ],
